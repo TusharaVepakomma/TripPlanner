@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.tripapp.AddTrip">
+
+
+    <EditText
+        android:id="@+id/addTripTripName"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Trip name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/addTripsSearchCity"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Search for a City"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTripTripName"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/addTripsButtonSearch"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Search"
+        app:layout_constraintStart_toEndOf="@+id/addTripsSearchCity"
+        app:layout_constraintTop_toBottomOf="@+id/addTripTripName"
+        tools:layout_editor_absoluteX="277dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/addTripSearchList"
+        android:layout_width="363dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTripsSearchCity"
+        tools:layout_editor_absoluteX="28dp"></android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/addTripButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Add Trip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTripSearchList"
+        tools:layout_editor_absoluteX="160dp" />
+</android.support.constraint.ConstraintLayout>

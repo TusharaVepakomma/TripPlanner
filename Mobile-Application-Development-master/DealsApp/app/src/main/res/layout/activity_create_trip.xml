@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.dealsapp.CreateTripActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Name"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="27dp" />
+
+    <EditText
+        android:id="@+id/addTripName"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter Trip name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="89dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:text="Number of People"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="82dp" />
+
+    <EditText
+        android:id="@+id/addNumber"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="146dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cost"
+        android:text="Cost $"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="131dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/costResult"
+        android:hint="Cost Result"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="131dp"
+        app:layout_constraintLeft_toRightOf="@+id/cost"
+        android:layout_marginLeft="-3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addPlaces"
+        android:text="Add Places"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/buttonViewTrip"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        android:text="View Trip"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="437dp" />
+
+    <Button
+        android:id="@+id/buttonAddTrip"
+        android:layout_width="61dp"
+        android:layout_height="71dp"
+        android:text="Add to Trips"
+        android:textAllCaps="false"
+        android:layout_marginLeft="108dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="431dp" />
+
+    <Button
+        android:id="@+id/buttonPlaceAddToWish"
+        android:layout_width="77dp"
+        android:layout_height="62dp"
+        android:textAllCaps="false"
+        android:text="Add to Wishlist"
+        android:layout_marginLeft="198dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="437dp" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="49dp"
+        android:layout_height="58dp"
+        android:textAllCaps="false"
+        android:text="Cancel"
+        android:layout_marginLeft="290dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="437dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/places"
+        android:layout_width="371dp"
+        android:layout_height="207dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="194dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></android.support.v7.widget.RecyclerView>
+
+
+</android.support.constraint.ConstraintLayout>

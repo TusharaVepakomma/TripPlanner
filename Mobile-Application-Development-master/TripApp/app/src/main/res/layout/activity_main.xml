@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.tripapp.MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonHome"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/home"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="33dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="433dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/trips"
+        android:layout_width="330dp"
+        android:layout_height="372dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></android.support.v7.widget.RecyclerView>
+
+    <ImageButton
+        android:id="@+id/imageButtonAdd"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/add"
+        android:layout_marginRight="42dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="447dp" />
+
+</android.support.constraint.ConstraintLayout>

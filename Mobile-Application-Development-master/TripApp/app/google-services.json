@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193668486759",
+    "firebase_url": "https://tripapp-45f87.firebaseio.com",
+    "project_id": "tripapp-45f87",
+    "storage_bucket": "tripapp-45f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193668486759:android:d5f934de90f61fbb",
+        "android_client_info": {
+          "package_name": "example.com.tripapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193668486759-2f677lvtkic7nrg02s6fnq80kr5ha6q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.tripapp",
+            "certificate_hash": "d3bee9b26f4fd76f11c1284f9d870c09e62a8ae8"
+          }
+        },
+        {
+          "client_id": "193668486759-golnhkh1rm71r13p5hok57643e9hg5or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqmijaMN6ldA3UqD9rLX0mYsQk84PqWLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193668486759-golnhkh1rm71r13p5hok57643e9hg5or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.dealsapp.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonGetDeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get a Deal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"
+        android:layout_marginTop="43dp"
+        android:layout_marginRight="148dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCreateTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Create Trip"
+        android:layout_marginLeft="148dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="37dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGetDeal" />
+
+    <Button
+        android:id="@+id/buttonTripList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip List"
+        android:layout_marginLeft="148dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="37dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCreateTrip" />
+
+    <Button
+        android:id="@+id/buttonWishList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wish List"
+        android:textAllCaps="false"
+        android:layout_marginLeft="148dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="46dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTripList" />
+</android.support.constraint.ConstraintLayout>

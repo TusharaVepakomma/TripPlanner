@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "292623241411",
+    "firebase_url": "https://dealsapp-45348.firebaseio.com",
+    "project_id": "dealsapp-45348",
+    "storage_bucket": "dealsapp-45348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292623241411:android:e3e28137c9576faa",
+        "android_client_info": {
+          "package_name": "example.com.dealsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292623241411-8p7ug2e40acvt3snfs2ql2st6ouc0sfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.dealsapp",
+            "certificate_hash": "d3bee9b26f4fd76f11c1284f9d870c09e62a8ae8"
+          }
+        },
+        {
+          "client_id": "292623241411-rhb8fej7tjar2s001qr9vuav2djmbbrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpvRzFMKk5LibsaTqEPyO85rYKRDY5eM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292623241411-rhb8fej7tjar2s001qr9vuav2djmbbrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
